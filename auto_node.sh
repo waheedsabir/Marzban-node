@@ -198,8 +198,8 @@ install_docker() {
 
 install_marzban_node_script() {
     colorized_echo blue "Installing marzban script"
-    # NOTE: Since we are using a custom script, we self-replicate properly
-    cp "$0" "/usr/local/bin/$APP_NAME"
+    # Fix: Download explicitly to handle both curl pipe and local execution
+    curl -sSL "https://raw.githubusercontent.com/waheedsabir/Marzban-node/refs/heads/master/auto_node.sh" > "/usr/local/bin/$APP_NAME"
     chmod 755 "/usr/local/bin/$APP_NAME"
     colorized_echo green "Marzban-node script installed successfully at /usr/local/bin/$APP_NAME"
 }
