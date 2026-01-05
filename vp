@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vless_reality",
+    "displayName": "🇺🇸 US - VLESS Reality",
+    "countryCode": "US",
+    "group": "Standard",
+    "protocol": "vless",
+    "host": "192.168.1.1",
+    "port": 443,
+    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
+    "flow": "xtls-rprx-vision",
+    "publicKey": "7o5XQwjh4aCb-3scCD7yTa4iC9s8a5_D7e8f9g0h1i2",
+    "shortId": "1a2b3c4d",
+    "sni": "www.google.com",
+    "fingerprint": "chrome",
+    "network": "tcp",
+    "sortOrder": 1
+  },
+  {
+    "id": "trojan_go",
+    "displayName": "🇩🇪 DE - Trojan (Go)",
+    "countryCode": "DE",
+    "group": "Standard",
+    "protocol": "trojan",
+    "host": "de.myserver.com",
+    "port": 443,
+    "password": "trojan_password",
+    "sni": "de.myserver.com",
+    "network": "tcp",
+    "sortOrder": 2
+  },
+  {
+    "id": "shadowsocks_aead",
+    "displayName": "🇬🇧 UK - Shadowsocks",
+    "countryCode": "GB",
+    "group": "Standard",
+    "protocol": "shadowsocks",
+    "host": "uk.myserver.com",
+    "port": 8388,
+    "method": "aes-256-gcm",
+    "password": "my_strong_password",
+    "sortOrder": 3
+  },
+  {
+    "id": "vmess_ws",
+    "displayName": "🇯🇵 JP - VMess (WS)",
+    "countryCode": "JP",
+    "group": "Standard",
+    "protocol": "vmess",
+    "host": "jp.myserver.com",
+    "port": 80,
+    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
+    "network": "ws",
+    "path": "/chat",
+    "sortOrder": 4
+  },
+  {
+    "id": "hysteria_2",
+    "displayName": "🇫🇷 FR - Hysteria 2",
+    "countryCode": "FR",
+    "group": "Standard",
+    "protocol": "hysteria2",
+    "host": "fr.myserver.com",
+    "port": 8443,
+    "password": "hy2_password",
+    "sni": "fr.myserver.com",
+    "allowInsecure": true,
+    "sortOrder": 5
+  }
+]
