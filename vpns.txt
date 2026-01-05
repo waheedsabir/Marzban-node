@@ -1,4 +1,18 @@
 [
+{
+    "id": "de_vip",
+    "displayName": "Germany - Berlin 10G",
+    "countryCode": "DE",
+    "group": "Standard",
+    "protocol": "vless",
+    "host": "de.vip-server.com",
+    "port": 443,
+    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
+    "publicKey": "7o5XQwjh4aCb-3scCD7yTa4iC9s8a5_D7e8f9g0h1i2",
+    "shortId": "1a2b3c4d",
+    "sni": "www.google.com",
+    "sortOrder": 101
+  },
   {
     "id": "us_1",
     "displayName": "USA - Los Angeles 01",
