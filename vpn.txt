@@ -1,0 +1,11 @@
+[
+  {
+    "displayName": "🇺🇸 USA - New York",
+    "countryCode": "US",
+    "host": "192.168.1.1",
+    "port": 443,
+    "protocol": "vless",
+    "uuid": "my-uuid",
+    "sortOrder": 1
+  }
+]
