@@ -1,12 +1,68 @@
 [
   {
-    "displayName": "USA - New York",
+    "id": "us_ny",
     "countryCode": "US",
-    "host": "192.168.1.1",
+    "displayName": "New York - East",
+    "host": "us-ny.myserver.com",
     "port": 443,
-    "protocol": "vless",
-    "uuid": "my-uuid",
+    "password": "password123",
+    "method": "aes-256-gcm",
+    "group": "Free Servers",
     "sortOrder": 1
+  },
+  {
+    "id": "us_la",
+    "countryCode": "US",
+    "displayName": "Los Angeles - West",
+    "host": "us-la.myserver.com",
+    "port": 443,
+    "password": "password123",
+    "method": "aes-256-gcm",
+    "group": "Free Servers",
+    "sortOrder": 2
+  },
+  {
+    "id": "jp_tokyo",
+    "countryCode": "JP",
+    "displayName": "Tokyo Public",
+    "host": "jp.myserver.com",
+    "port": 443,
+    "password": "password123",
+    "method": "chacha20-ietf-poly1305",
+    "group": "Free Servers",
+    "sortOrder": 3
+  },
+  {
+    "id": "sg_vip_1",
+    "countryCode": "SG",
+    "displayName": "Singapore Fast 1",
+    "host": "sg1.myserver.com",
+    "port": 443,
+    "password": "vip-password",
+    "method": "aes-256-gcm",
+    "group": "Premium VIP",
+    "sortOrder": 4
+  },
+  {
+    "id": "sg_vip_2",
+    "countryCode": "SG",
+    "displayName": "Singapore Gaming",
+    "host": "sg2.myserver.com",
+    "port": 443,
+    "password": "vip-password",
+    "method": "aes-256-gcm",
+    "group": "Premium VIP",
+    "sortOrder": 5
+  },
+  {
+    "id": "us_netflix",
+    "countryCode": "US",
+    "displayName": "USA Netflix Optimized",
+    "host": "us-vip.myserver.com",
+    "port": 443,
+    "password": "vip-password",
+    "method": "chacha20-ietf-poly1305",
+    "group": "Premium VIP",
+    "sortOrder": 6
   }
-
 ]
