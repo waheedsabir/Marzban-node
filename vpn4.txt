@@ -1,0 +1,14 @@
+[
+  {
+    "id": "real_server_1",
+    "displayName": "Working Shadowsocks Server",
+    "countryCode": "US",
+    "group": "Standard",
+    "protocol": "shadowsocks",
+    "host": "155.138.161.24",
+    "port": 1080,
+    "method": "chacha20-ietf-poly1305",
+    "password": "-IRnMonXgzXVghNvvr6QnQ",
+    "sortOrder": 1
+  }
+]
