@@ -1,8 +1,8 @@
 [
   {
-    "id": "us_real_1",
-    "displayName": "USA - Fast Shadowsocks",
-    "countryCode": "US",
+    "id": "us_1",
+    "displayName": "USA - New York 1",
+    "countryCode": "US",  // SAME
     "group": "Standard",
     "protocol": "shadowsocks",
     "host": "155.138.161.24",
@@ -12,23 +12,23 @@
     "sortOrder": 1
   },
   {
-    "id": "us_real_2",
-    "displayName": "USA - Premium Shadowsocks",
-    "countryCode": "US",
-    "group": "Premium",
+    "id": "us_2", 
+    "displayName": "USA - Los Angeles 2",
+    "countryCode": "US",  // SAME
+    "group": "Standard", 
     "protocol": "shadowsocks",
     "host": "155.138.161.24",
     "port": 1080,
-    "method": "chacha20-ietf-poly1305",
+    "method": "chacha20-ietf-poly1305", 
     "password": "-IRnMonXgzXVghNvvr6QnQ",
     "sortOrder": 2
   },
   {
-    "id": "us_real_3",
-    "displayName": "USA - Ultra Shadowsocks",
-    "countryCode": "US",
+    "id": "jp_1",
+    "displayName": "Japan - Tokyo 1",
+    "countryCode": "JP",
     "group": "Standard",
-    "protocol": "shadowsocks",
+    "protocol": "shadowsocks", 
     "host": "155.138.161.24",
     "port": 1080,
     "method": "chacha20-ietf-poly1305",
@@ -36,87 +36,15 @@
     "sortOrder": 3
   },
   {
-    "id": "jp_real_1",
-    "displayName": "Japan - Tokyo Shadowsocks",
-    "countryCode": "JP",
-    "group": "Standard",
+    "id": "jp_2",
+    "displayName": "Japan - Osaka 2", 
+    "countryCode": "JP",  // SAME
+    "group": "Premium",  // Different group!
     "protocol": "shadowsocks",
     "host": "155.138.161.24",
     "port": 1080,
     "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
+    "password": "-IRnMonXgzXVghNvvr6QnQ", 
     "sortOrder": 4
-  },
-  {
-    "id": "uk_real_1",
-    "displayName": "UK - London Shadowsocks",
-    "countryCode": "GB",
-    "group": "Premium",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 5
-  },
-  {
-    "id": "de_real_1",
-    "displayName": "Germany - Frankfurt Shadowsocks",
-    "countryCode": "DE",
-    "group": "Standard",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 6
-  },
-  {
-    "id": "fr_real_1",
-    "displayName": "France - Paris Shadowsocks",
-    "countryCode": "FR",
-    "group": "Premium",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 7
-  },
-  {
-    "id": "sg_real_1",
-    "displayName": "Singapore - Shadowsocks",
-    "countryCode": "SG",
-    "group": "Standard",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 8
-  },
-  {
-    "id": "au_real_1",
-    "displayName": "Australia - Sydney Shadowsocks",
-    "countryCode": "AU",
-    "group": "Premium",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 9
-  },
-  {
-    "id": "ca_real_1",
-    "displayName": "Canada - Toronto Shadowsocks",
-    "countryCode": "CA",
-    "group": "Standard",
-    "protocol": "shadowsocks",
-    "host": "155.138.161.24",
-    "port": 1080,
-    "method": "chacha20-ietf-poly1305",
-    "password": "-IRnMonXgzXVghNvvr6QnQ",
-    "sortOrder": 10
   }
 ]
