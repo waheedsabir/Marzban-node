@@ -1,16 +1,14 @@
 [
-{
-  
   {
     "id": "us_1",
     "displayName": "USA - Los Angeles 01",
     "countryCode": "US",
     "group": "Standard",
-    "protocol": "vless",
-    "host": "la1.free.com",
-    "port": 443,
-    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
-    "flow": "xtls-rprx-vision",
+    "protocol": "shadowsocks",
+    "host": "155.138.161.24",
+    "port": 1080,
+    "method": "chacha20-ietf-poly1305",
+    "password": "-IRnMonXgzXVghNvvr6QnQ",
     "sortOrder": 1
   },
   {
