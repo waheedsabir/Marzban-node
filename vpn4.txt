@@ -1,7 +1,7 @@
 [
   {
-    "id": "real_server_1",
-    "displayName": "Working Shadowsocks Server",
+    "id": "us_real_1",
+    "displayName": "USA - Vultr Server",
     "countryCode": "US",
     "group": "Standard",
     "protocol": "shadowsocks",
@@ -10,5 +10,47 @@
     "method": "chacha20-ietf-poly1305",
     "password": "-IRnMonXgzXVghNvvr6QnQ",
     "sortOrder": 1
+  },
+  {
+    "id": "jp_2",
+    "displayName": "Japan - Osaka 02",
+    "countryCode": "JP",
+    "group": "Standard",
+    "protocol": "vless",
+    "host": "jp2.free.com",
+    "port": 443,
+    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
+    "flow": "xtls-rprx-vision",
+    "sni": "example.com",
+    "sortOrder": 5
+  },
+  {
+    "id": "uk_vip",
+    "displayName": "UK - London HighSpeed",
+    "countryCode": "GB",
+    "group": "Premium",
+    "protocol": "hysteria2",
+    "host": "uk.vip-server.com",
+    "port": 8443,
+    "password": "vip_pass",
+    "up_mbps": 100,
+    "down_mbps": 100,
+    "sni": "uk.vip-server.com",
+    "sortOrder": 100
+  },
+  {
+    "id": "de_vip",
+    "displayName": "Germany - Berlin 10G",
+    "countryCode": "DE",
+    "group": "Premium",
+    "protocol": "vless",
+    "host": "de.vip-server.com",
+    "port": 443,
+    "uuid": "51f15155-2487-4348-89c0-8263901b0451",
+    "flow": "xtls-rprx-vision",
+    "publicKey": "7o5XQwjh4aCb-3scCD7yTa4iC9s8a5_D7e8f9g0h1i2",
+    "shortId": "1a2b3c4d",
+    "sni": "www.google.com",
+    "sortOrder": 101
   }
 ]
