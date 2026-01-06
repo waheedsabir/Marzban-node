@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hysteria_test",
+    "displayName": "Test Hysteria2 Server",
+    "countryCode": "US",
+    "group": "Standard",
+    "protocol": "hysteria2",
+    "host": "test.example.com",
+    "port": 8443,
+    "password": "test_password",
+    "up_mbps": 200,
+    "down_mbps": 500,
+    "sni": "test.example.com",
+    "sortOrder": 1
+  },
+  {
+    "id": "ss_test",
+    "displayName": "Test Shadowsocks",
+    "countryCode": "JP",
+    "group": "Standard",
+    "protocol": "shadowsocks",
+    "host": "155.138.161.24",
+    "port": 1080,
+    "method": "chacha20-ietf-poly1305",
+    "password": "-IRnMonXgzXVghNvvr6QnQ",
+    "sortOrder": 2
+  }
+]
